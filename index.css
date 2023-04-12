@@ -26,13 +26,21 @@ div#rodape {
 
 .card {
 
-    width: 220px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     background-color: white;
     margin-top: 20px;
     margin-left: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
 
 }
+
+.card-texto-abaixo {
+    font-size: 15px;
+    margin-top: 150px;
+  }
 
 
 .imagem {
@@ -43,7 +51,9 @@ div#rodape {
 .massa {
     display: flex;
     justify-content: center;
+    background-color: blue;
 }
+
 
 
 
